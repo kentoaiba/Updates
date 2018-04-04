@@ -1,0 +1,31 @@
+{
+    "name": "netcommons/updates",
+    "description": "Updates for NetCommons Plugin",
+    "type":        "cakephp-plugin",
+    "homepage": "http://www.netcommons.org/",
+    "extra": {
+        "installer-paths": {
+            "app/Plugin/{$name}": ["type:cakephp-plugin"]
+        }
+    },
+    "require": {
+        "cakedc/migrations":            "~2.2",
+        "netcommons/blocks":            "@dev",
+        "netcommons/net-commons":      "@dev",
+        "netcommons/pages":             "@dev",
+        "netcommons/plugin-manager":   "@dev",
+        "netcommons/workflow": "@dev"
+    },
+    "license": "Commercial License",
+    "authors": [
+        {
+            "name": "AllCreator Co.,Ltd",
+            "homepage": "http://www.netcommons.org"
+        }
+    ],
+    "keywords":    ["cakephp", "updates"],
+    "config": {
+        "vendor-dir": "vendors"
+    }
+}
+
